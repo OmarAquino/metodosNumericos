@@ -55517,12 +55517,6 @@ var render = function() {
                     rawName: "v-model",
                     value: _vm.pm1,
                     expression: "pm1"
-                  },
-                  {
-                    name: "validate",
-                    rawName: "v-validate",
-                    value: "required|max_value:1",
-                    expression: "'required|max_value:1'"
                   }
                 ],
                 staticClass: "form-control",
@@ -55553,12 +55547,6 @@ var render = function() {
                     rawName: "v-model",
                     value: _vm.pm2,
                     expression: "pm2"
-                  },
-                  {
-                    name: "validate",
-                    rawName: "v-validate",
-                    value: "required|numeric|max_value:1",
-                    expression: "'required|numeric|max_value:1'"
                   }
                 ],
                 staticClass: "form-control",
@@ -55591,12 +55579,6 @@ var render = function() {
                     rawName: "v-model",
                     value: _vm.pmo1m1,
                     expression: "pmo1m1"
-                  },
-                  {
-                    name: "validate",
-                    rawName: "v-validate",
-                    value: "required|max_value:1",
-                    expression: "'required|max_value:1'"
                   }
                 ],
                 staticClass: "form-control",
@@ -55632,12 +55614,6 @@ var render = function() {
                     rawName: "v-model",
                     value: _vm.pmo2m1,
                     expression: "pmo2m1"
-                  },
-                  {
-                    name: "validate",
-                    rawName: "v-validate",
-                    value: "required|max_value:1",
-                    expression: "'required|max_value:1'"
                   }
                 ],
                 staticClass: "form-control",
@@ -55675,12 +55651,6 @@ var render = function() {
                     rawName: "v-model",
                     value: _vm.pmo2m2,
                     expression: "pmo2m2"
-                  },
-                  {
-                    name: "validate",
-                    rawName: "v-validate",
-                    value: "required|max_value:1",
-                    expression: "'required|max_value:1'"
                   }
                 ],
                 staticClass: "form-control",
@@ -55716,12 +55686,6 @@ var render = function() {
                     rawName: "v-model",
                     value: _vm.pmo1m2,
                     expression: "pmo1m2"
-                  },
-                  {
-                    name: "validate",
-                    rawName: "v-validate",
-                    value: "required|max_value:1",
-                    expression: "'required|max_value:1'"
                   }
                 ],
                 staticClass: "form-control",
@@ -55972,12 +55936,6 @@ var render = function() {
                           rawName: "v-model",
                           value: _vm.po1,
                           expression: "po1"
-                        },
-                        {
-                          name: "validate",
-                          rawName: "v-validate",
-                          value: "required|max_value:1",
-                          expression: "'required|max_value:1'"
                         }
                       ],
                       staticClass: "form-control",
@@ -56013,12 +55971,6 @@ var render = function() {
                           rawName: "v-model",
                           value: _vm.po2,
                           expression: "po2"
-                        },
-                        {
-                          name: "validate",
-                          rawName: "v-validate",
-                          value: "required|numeric|max_value:1",
-                          expression: "'required|numeric|max_value:1'"
                         }
                       ],
                       staticClass: "form-control",

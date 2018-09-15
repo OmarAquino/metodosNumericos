@@ -5,31 +5,31 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="pm1">P(M1):</label>    
-                    <input type="text" class="form-control" v-model="pm1" name="pm1" id="pm1" v-validate="'required|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="pm1" name="pm1" id="pm1" maxlength="8">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="pm2">P(M2):</label>    
-                    <input type="text" class="form-control" v-model="pm2" name="pm2" id="pm2" v-validate="'required|numeric|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="pm2" name="pm2" id="pm2" maxlength="8">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="pmo1m1">P(O1/M1):</label>    
-                    <input type="text" class="form-control" v-model="pmo1m1" name="pmo1m1" id="pmo1m1" v-validate="'required|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="pmo1m1" name="pmo1m1" id="pmo1m1" maxlength="8">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="pmo2m1">P(O2/M1):</label>    
-                    <input type="text" class="form-control" v-model="pmo2m1" name="pmo2m1" id="pmo2m1" v-validate="'required|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="pmo2m1" name="pmo2m1" id="pmo2m1" maxlength="8">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="pmo2m2">P(O2/M2):</label>    
-                    <input type="text" class="form-control" v-model="pmo2m2" name="pmo2m2" id="pmo2m2" v-validate="'required|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="pmo2m2" name="pmo2m2" id="pmo2m2" maxlength="8">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="pmo1m2">P(O1/M2):</label>    
-                    <input type="text" class="form-control" v-model="pmo1m2" name="pmo1m2" id="pmo1m2" v-validate="'required|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="pmo1m2" name="pmo1m2" id="pmo1m2" maxlength="8">
                 </div>
             </div>
             <div class="row pb-3">
@@ -68,11 +68,11 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="po1">P(O1):</label>    
-                    <input type="text" class="form-control" v-model="po1" name="po1" id="po1" v-validate="'required|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="po1" name="po1" id="po1" maxlength="8">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 form-group">
                     <label for="po2">P(O2):</label>    
-                    <input type="text" class="form-control" v-model="po2" name="po2" id="po2" v-validate="'required|numeric|max_value:1'" maxlength="8">
+                    <input type="text" class="form-control" v-model="po2" name="po2" id="po2" maxlength="8">
                 </div>
             </div>
             <div class="row pb-3">
